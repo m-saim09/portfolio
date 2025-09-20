@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Saim - Portfolio</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-[#F5F5F5] text-[#2D3436] antialiased">
+
+  <!-- Container -->
+  <div class="max-w-7xl mx-auto px-6 py-12">
+
+    <!-- NAV -->
+    <nav class="flex items-center justify-between mb-12">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-lg bg-[#0A3D62] flex items-center justify-center shadow-xl">
+          <span class="font-bold text-white">MS</span>
+        </div>
+        <div>
+          <h1 class="text-lg font-semibold">Muhammad Saim</h1>
+          <p class="text-xs text-[#2D3436] -mt-1">Full-Stack Web Developer</p>
+        </div>
+      </div>
+
+      <div class="hidden md:flex items-center gap-6">
+          <a href="#projects" class="text-[#0A3D62] hover:text-[#E17055] transition-all hover:underline underline-offset-4 duration-300">Projects</a>
+          <a href="#skills" class="text-[#0A3D62] hover:text-[#E17055] transition-all hover:underline underline-offset-4 duration-300">Skills</a>
+          <a href="#contact" class="text-[#0A3D62] hover:text-[#E17055] transition-all hover:underline underline-offset-4 duration-300">Contact</a>
+        </div>
+
+      <button class="md:hidden p-2 rounded-md bg-[#0A3D62]/20 border border-[#0A3D62]/40">Menu</button>
+    </nav>
+
+    <!-- HERO -->
+    <header class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="animate__animated animate__fadeInLeft text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
+          Hi, I’m <span class="text-[#0A3D62]">Muhammad Saim</span>
+        </h2>
+        <p class="mt-6 text-lg max-w-xl animate__animated animate__fadeInUp animate__delay-1s">
+          Full-Stack Web Developer passionate about building modern, efficient, and scalable web applications.
+        </p>
+        <div class="mt-8 flex gap-4 animate__animated animate__fadeInUp animate__delay-2s">
+          <a href="#projects" class="inline-flex items-center gap-3 rounded-lg bg-[#E17055] px-5 py-3 font-medium text-white shadow-lg hover:scale-105 transform transition">View My Work</a>
+          <a href="#contact" class="inline-flex items-center gap-3 rounded-lg border border-[#0A3D62] px-5 py-3 text-sm text-[#0A3D62] hover:bg-[#0A3D62]/10 transition">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="absolute -right-8 top-0 w-[360px] h-[360px] rounded-3xl bg-[#0A3D62]/20 blur-3xl opacity-80 animate-pulse"></div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="mt-20">
+      <h3 class="text-2xl font-bold text-[#0A3D62]">About Me</h3>
+      <p class="mt-4 text-[#2D3436] max-w-3xl">
+        I am a full-stack developer based in Punjab, Pakistan, with experience in building dynamic web applications using React, Node.js, Tailwind CSS, and MongoDB. I am passionate about creating efficient, user-friendly digital experiences and continually expanding my skillset. In my free time, I enjoy learning new technologies and exploring creative solutions.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="mt-20">
+      <h3 class="text-2xl font-bold text-[#0A3D62]">Skills</h3>
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="p-4 rounded-xl bg-[#F5F5F5]/50 border border-[#0A3D62]/20">
+          <div class="flex items-center justify-between font-semibold">React <span>100%</span></div>
+          <div class="mt-3 h-2 w-full rounded-full bg-[#2D3436]/10">
+            <div class="h-full rounded-full bg-[#E17055] w-[100%]"></div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-[#F5F5F5]/50 border border-[#0A3D62]/20">
+          <div class="flex items-center justify-between font-semibold">CSS <span>100%</span></div>
+          <div class="mt-3 h-2 w-full rounded-full bg-[#2D3436]/10">
+            <div class="h-full rounded-full bg-[#E17055] w-[100%]"></div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-[#F5F5F5]/50 border border-[#0A3D62]/20">
+          <div class="flex items-center justify-between font-semibold">Tailwind CSS <span>100%</span></div>
+          <div class="mt-3 h-2 w-full rounded-full bg-[#2D3436]/10">
+            <div class="h-full rounded-full bg-[#E17055] w-[100%]"></div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-[#F5F5F5]/50 border border-[#0A3D62]/20">
+          <div class="flex items-center justify-between font-semibold">JavaScript <span>95%</span></div>
+          <div class="mt-3 h-2 w-full rounded-full bg-[#2D3436]/10">
+            <div class="h-full rounded-full bg-[#E17055] w-[95%]"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="p-4 rounded-xl bg-[#F5F5F5]/50 border border-[#0A3D62]/20">
+          <div class="flex items-center justify-between font-semibold">React <span>95%</span></div>
+          <div class="mt-3 h-2 w-full rounded-full bg-[#2D3436]/10">
+            <div class="h-full rounded-full bg-[#E17055] w-[95%]"></div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-[#F5F5F5]/50 border border-[#0A3D62]/20">
+          <div class="flex items-center justify-between font-semibold">Node.js <span>85%</span></div>
+          <div class="mt-3 h-2 w-full rounded-full bg-[#2D3436]/10">
+            <div class="h-full rounded-full bg-[#E17055] w-[85%]"></div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-[#F5F5F5]/50 border border-[#0A3D62]/20">
+          <div class="flex items-center justify-between font-semibold">Express.js <span>90%</span></div>
+          <div class="mt-3 h-2 w-full rounded-full bg-[#2D3436]/10">
+            <div class="h-full rounded-full bg-[#E17055] w-[90%]"></div>
+          </div>
+        </div>
+        <div class="p-4 rounded-xl bg-[#F5F5F5]/50 border border-[#0A3D62]/20">
+          <div class="flex items-center justify-between font-semibold">MongoDB <span>95%</span></div>
+          <div class="mt-3 h-2 w-full rounded-full bg-[#2D3436]/10">
+            <div class="h-full rounded-full bg-[#E17055] w-[95%]"></div>
+          </div>
+        </div></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="mt-20">
+      <h3 class="text-2xl font-bold  text-center text-[#0A3D62]">Projects</h3>
+      <h3 class="text-md  text-center text-[#0A3D62]">I have worked on numerous projects, but this is  my favorite projects</h3>
+
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="rounded-2xl p-6 bg-white shadow-md border border-[#0A3D62]/20">
+          <img src="images/Bareerascollection.jpeg" class="w-full h-50 object-cover rounded-lg mb-4"/>
+          <h4 class="font-semibold text-[#0A3D62]">Bareera's Collection</h4>
+          <p class="mt-2 text-sm">E-commerce platform with admin dashboard and payment integration.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow-md border border-[#0A3D62]/20">
+          <img src="images/newsmonkey.jpeg" class="w-full h-50 object-cover rounded-lg mb-4"/>
+          <h4 class="font-semibold text-[#0A3D62]">News Monkey</h4>
+          <p class="mt-2 text-sm">React news portal integrated with external APIs and responsive UI.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow-md border border-[#0A3D62]/20">
+          <img src="images/inotebook.jpeg" class="w-full h-50 object-cover rounded-lg mb-4"/>
+          <h4 class="font-semibold text-[#0A3D62]">iNotebook</h4>
+          <p class="mt-2 text-sm">Notes app with authentication, CRUD, and WebSocket sync.</p>
+        </div>
+      </div>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="rounded-2xl p-6 bg-white shadow-md border border-[#0A3D62]/20">
+          <img src="images/das.jpeg" class="w-full h-50 object-cover rounded-lg mb-4"/>
+          <h4 class="font-semibold text-[#0A3D62]">Bareera's Collection Admin-Dashboard</h4>
+          <p class="mt-2 text-sm">E-commerce platform with admin dashboard and payment integration.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow-md border border-[#0A3D62]/20">
+          <img src="images/fastbite.jpeg" class="w-full h-48 object-cover rounded-lg mb-4"/>
+          <h4 class="font-semibold text-[#0A3D62]">fastbite</h4>
+          <p class="mt-2 text-sm">Food delivery app with real-time tracking and user authentication.</p>
+        </div>
+        <div class="rounded-2xl p-6 bg-white shadow-md border border-[#0A3D62]/20">
+          <img src="images/skyad.jpeg" class="w-full h-48 object-cover rounded-lg mb-4"/>
+          <h4 class="font-semibold text-[#0A3D62]">Sky Admin-Dashboard</h4>
+          <p class="mt-2 text-sm">E-commerce platform with admin dashboard and payment integration.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mt-20">
+      <h3 class="text-2xl font-bold text-[#0A3D62]">Contact</h3>
+      <div class="mt-6 max-w-lg mx-auto bg-white p-6 rounded-xl shadow-md">
+        <form id="contactForm" class="flex flex-col gap-4">
+          <input type="text" id="name" placeholder="Your Name" class="border border-[#0A3D62]/20 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#E17055]" required />
+          <input type="email" id="email" placeholder="Your Email" class="border border-[#0A3D62]/20 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#E17055]" required />
+          <textarea id="message" placeholder="Your Message" class="border border-[#0A3D62]/20 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#E17055] h-32" required></textarea>
+          <button type="submit" class="bg-[#E17055] text-white py-3 rounded-lg hover:scale-105 transform transition">Send Message</button>
+        </form>
+      </div>
+      <p class="mt-4 text-center">Email: <a href="mailto:msaimryk1@gmail.com" class="text-[#E17055] hover:underline">msaimryk1@gmail.com</a></p>
+      <p class="text-center">Location: Punjab, Pakistan</p>
+    </section>
+
+  </div>
+
+  <!-- Contact Form Script -->
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    // ✅ + hata do, wa.me only accepts plain number
+    const whatsappNumber = "923319667125";
+
+    // ✅ Line breaks ka proper encoding
+    const text = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${text}`;
+    const emailURL = `mailto:msaimryk1@gmail.com?subject=Portfolio Contact&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+    )}`;
+
+    // ✅ Try WhatsApp, fallback to Email agar block ho
+    const newWindow = window.open(whatsappURL, "_blank");
+    if (!newWindow || newWindow.closed || typeof newWindow.closed === "undefined") {
+      window.open(emailURL, "_blank");
+    }
+  });
+</script>
+
+
+</body>
+</html>
